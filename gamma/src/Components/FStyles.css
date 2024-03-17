@@ -1,0 +1,56 @@
+/* Footer.css */
+.footer {
+    background-color: #1d0042;
+    color: #fff;
+    padding: 30px;
+    height: 60vh;
+    align-items: center;
+    padding-top: 100px;
+  }
+  .gammaImg{
+    height: 1%;
+    background-color: #1d0042;
+  }
+  
+  .gammaImg img{
+    width: 50%;
+    background-color: #1d0042;
+    
+  }
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #1d0042;
+  }
+  
+  .footer-column {
+    width: 80%;
+    background-color: #1d0042;
+  }
+  
+  .footer-column h4 {
+    margin-bottom: 10px;
+    color: rgb(135, 15, 117);
+    background-color: #1d0042;
+    font-weight: bolder;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+    background-color: #1d0042;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 20px;
+    background-color: #1d0042;
+  }
+  
+  .footer-column ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  

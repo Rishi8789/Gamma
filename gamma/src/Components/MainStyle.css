@@ -1,0 +1,36 @@
+/* MainStyle.css */
+
+.main-content {
+    background-size: cover;
+    background-position: center;
+    height: 110vh; /* Set height as needed */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+  
+ 
+  .heading{
+    
+    font-size: 80px;
+    font-weight: lighter;
+    justify-content: center;
+    /* text-align:start; */
+    letter-spacing: 0em;
+    line-height: 1.03em;
+    max-width: 900px;
+    background-color: transparent;
+    padding: 100px;
+    
+   
+  }
+  .heading1, .heading2 {
+    -webkit-text-fill-color: transparent;
+    background-image:linear-gradient(79deg, #2b0aff, #ff5b8a 49%, #ff5b8a 55%, #fba64b 77%, #f99b52);
+    -webkit-background-clip: text;
+    background-clip: text;
+    display: block;
+    /* font-size: 92px; */
+    
+  }
+  
