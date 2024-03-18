@@ -1,0 +1,31 @@
+/* VideoPlayer.css */
+
+.video-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Center vertically */
+}
+
+.video-heading {
+  margin-bottom: 20px;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 900px; /* Limit maximum width */
+  padding-top: 40%; /* 16:9 aspect ratio */
+  border-radius: 20px;
+ 
+}
+
+.video-frame {
+  position: absolute;
+  top:-100px;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  border-radius: 20px;
+}
